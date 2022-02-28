@@ -1,0 +1,76 @@
+/* selector {
+  property: value;
+  color: rgb(32, 97, 30);
+} */
+
+/* html tags */
+h1 {
+    color: rgba(128, 8, 8, 0.842);
+    text-align: center;
+    font-size: 49px;
+  }
+  
+   h2 {
+    color: rgb(116, 17, 136);
+    text-align: center;
+    font-size: 35px;
+  }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 20px;
+    align-items: center;
+
+}
+  /* h3 {
+      
+    color: rgb(32, 97, 30);
+  } */ */
+  
+  li {
+    font-weight: bold;
+  }
+  
+  body {
+    background-color: #eedd93;
+    color: rgb(0, 0, 0)
+  }
+  
+  footer {
+    background-color: rgb(67, 150, 65);
+    color: #eef2d5;
+  }
+  
+  p {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* adding class attributes to html */
+  .larger {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* adding id attributes to html */
+  #green {
+    color: #70510c
+  }
+  
+  /* adding borders */
+  
+  table{
+    /* border-color: rgb(32, 97, 30);
+    border-width: 3px;
+    border-style: dotted; */
+    /* width style color */
+    border: 3px dotted rgb(32, 97, 30);
+  }
+
+  td {
+    background-color: orange;
+
+  }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colorful Stars</title>
+    <link rel="icon" type="image/x-icon" href="purpleStar.png"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="top">Colorful Stars</h1>
+    <h2>Find the Purple one</h2>
+    <img class="center" src="purpleStar.png" height="240">
+    <a href="#Table">
+      <button class="center">
+        PLAY THE GAME
+      </button>
+    </a>
+    <div class="larger">
+    <ol>
+      <li>Click the START GAME button</li>
+      <li>Click on any square until you find what you are looking for</li>
+      <li>You are looking for the purple star</li>
+      <li>Win or lose you WILL HAVE FUN</li>
+      <li>The STARS are Question marks</li>
+    </ol>
+  </div>
+  
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. A asperiores, tempora velit unde iste quasi libero quisquam totam. Optio quas perferendis voluptatem quod consectetur expedita tenetur porro obcaecati labore quo.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quos vel libero, aperiam pariatur recusandae impedit quia maxime laudantium, atque necessitatibus dolore nulla natus sapiente! Praesentium quidem consectetur unde consequatur?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora eaque reprehenderit, error deserunt maiores quas! Saepe, doloribus ipsam. Architecto, voluptates deserunt dolorum maxime dolor quidem sed molestias sit eum!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut blanditiis voluptatum? Obcaecati deleniti adipisci molestiae praesentium ipsam. Incidunt ipsam mollitia facilis repudiandae odit harum numquam asperiores labore corrupti impedit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus dolor pariatur ipsum rem est eius necessitatibus natus dolorem eum. Quia fuga unde aliquid mollitia harum officia, sed suscipit consequuntur!
+    </p>
+  
+    <a href="#Table">
+      <button class="center">
+        START GAME
+      </button>
+    </a>
+    <table border=1 id="Table" class="center">
+      <tr>
+        <th colspan="3">This is the treasure hunt game 3x3 table</th>
+      </tr>
+      <td id="squareOne" onclick="
+        emojiChanger('squareOne');
+        emojiChanger2('squareOne');
+        "> ?</td>
+        <td id="squareTwo" onclick="
+        emojiChanger('squareTwo');
+        emojiChanger2('squareTwo');
+        ">?</td>
+        <td id="squareThree" onclick="
+        emojiChanger('squareThree');
+        emojiChanger2('squareThree');
+        ">?</td>
+      <tr>
+        <td id="squareFour" onclick="
+          emojiChanger('squareFour');
+          emojiChanger2('squareFour');
+          ">?</td>
+        <td id="squareFive" onclick="
+        emojiChanger('squareFive');
+        emojiChanger2('squareFive');
+        ">?</td>
+        <td id="squareSix" onclick="
+        emojiChanger('squareSix');
+        emojiChanger2('squareSix');
+        ">?</td>
+      </tr>
+      <tr>
+        <td id="squareSeven" onclick="
+        emojiChanger('squareSeven');
+        emojiChanger2('squareSeven')";
+        >?</td>
+        <td id="squareEight" onclick="
+        emojiChanger('squareEight');
+        emojiChanger2('squareEight');
+        ">?</td>
+        <td id="squareNine" onclick="
+        emojiChanger('squareNine');
+        emojiChanger2('squareNine');
+        ">?</td>
+    </tr>
+    </table>
+    <footer>&copy A game by: Brook and Victor
+      <a href="https://www.starlink.com/" target="_blank"> A link to Starlink since we don't have another website</a>
+      <a href="#top">Top of page</a>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
+<!-- 
+<img alt="" src="http://www.userinterfaceicons.com/80x80/minimize.png" 
+  id="imgClickAndChange" 
+  onclick="changeImage()"  
+  /> -->
